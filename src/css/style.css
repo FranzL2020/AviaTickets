@@ -1,0 +1,118 @@
+body {
+  font-size: 20px;
+  background-color: white;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justyfy-items-center {
+  justify-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+/* 
+header styles
+
+*/
+
+.header .brand-logo {
+  position: static;
+}
+
+.header .currency-select input.select-dropdown {
+  margin: 0;
+  color: aliceblue;
+  border-bottom: none;
+}
+
+.header .currency-select input.select-dropdown:focus {
+  border-bottom: none;
+}
+
+.header .currency-select .caret {
+  fill: aliceblue;
+}
+.header .currency-select {
+  width: 120px;
+}
+
+.datepicker-date-display {
+  flex: 1 auto;
+  background-color: blueviolet !important;
+  color: #fff;
+  padding: 20px 22px;
+  font-weight: 500;
+}
+
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+  color: blueviolet !important;
+}
+
+.datepicker-table td.is-selected {
+  background-color: blueviolet !important;
+  color: #fff;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  font-size: 16px;
+  color: blueviolet !important;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+input:not([type]),
+input[type='text']:not(.browser-default),
+input[type='password']:not(.browser-default),
+input[type='email']:not(.browser-default),
+input[type='url']:not(.browser-default),
+input[type='time']:not(.browser-default),
+input[type='date']:not(.browser-default),
+input[type='datetime']:not(.browser-default),
+input[type='datetime-local']:not(.browser-default),
+input[type='tel']:not(.browser-default),
+input[type='number']:not(.browser-default),
+input[type='search']:not(.browser-default),
+textarea.materialize-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+  transition: box-shadow 0.3s, border 0.3s;
+  border-bottom: 1px blueviolet !important;
+  box-shadow: 0 1px 0 0 blueviolet !important;
+}
+
+.header .brand-logo {
+  font-size: 1.6rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
